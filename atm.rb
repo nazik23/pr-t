@@ -241,4 +241,3 @@ end
 Accounts.set_accounts accounts
 
 AtmInterface.new(Atm.new(config['banknotes'])).start_atm
-

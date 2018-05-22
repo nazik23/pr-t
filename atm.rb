@@ -1,7 +1,7 @@
 require 'yaml'
 require 'forwardable'
 
-config = YAML.load_file(ARGV.first || '/home/nazik23/work/pivorak-test/config.yml')
+config = YAML.load_file(ARGV.first || 'config.yml')
 
 class Atm
   attr_reader :banknotes
